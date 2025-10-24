@@ -197,12 +197,19 @@ export default function SwarmEffectLanding() {
                 </div>
               </div>
             </div>
-            <div className="relative group cursor-pointer">
+            <div className="relative group">
                <div className="absolute -inset-4 bg-slate-200 rounded-xl -rotate-2 group-hover:rotate-0 transition-all" />
-               <div className="relative aspect-video bg-slate-900 rounded-lg overflow-hidden shadow-2xl flex items-center justify-center">
-                 <Play className="w-20 h-20 text-white opacity-90 group-hover:scale-110 transition-transform" fill="currentColor" />
-                 {/* Placeholder for video thumbnail */}
-                 <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/80 to-transparent -z-10" />
+               <div className="relative aspect-video bg-slate-900 rounded-lg overflow-hidden shadow-2xl">
+                 <iframe
+                   width="100%"
+                   height="100%"
+                   src="https://www.youtube.com/embed/ydYG_1l0IjE"
+                   title="Arthur Zard TEDx Talk"
+                   frameBorder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                   allowFullScreen
+                   className="w-full h-full"
+                 />
                </div>
             </div>
           </div>
